@@ -1,0 +1,569 @@
+*{
+margin: 0;
+padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header-nav ul a{
+    color:white;
+    text-decoration: none;
+}
+.my-5{
+    color: white;
+}
+header{
+    display: flex;
+    color:#FEC260;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    justify-content: space-between;
+    background-color: #0a080c;
+    padding: .5em 1.5em;
+}
+
+.header-nav{
+    width:45%
+}
+
+.header-nav ul{
+list-style-type: none;
+display: flex;
+align-items: center;
+text-decoration: none;
+justify-content: space-around;
+justify-content: space-between;
+}
+
+.header-nav ul li:hover{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    font-size: .8em;
+    text-decoration: none;
+    justify-content: space-around;
+    justify-content: space-between;
+    content: space-between;
+}
+#nn{
+    display: none;
+    justify-items: right;
+}
+.mid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1em;
+    padding:1em;
+    align-items: center;
+    color: whitesmoke;
+}
+.mid-2 {
+background-image: url("jk.jpg");
+background-image: cover;
+background-blend-mode: overlay;
+height: 120vh;
+}
+.add img{
+    background-image: cover;
+    border-radius: 20em;
+    box-shadow: wheat 1px 2px 16px 3px;
+    width:50%;
+    height: 40%;
+    /* padding-left: 7em; */
+    margin: 10em 10em ;
+}
+#info{
+    border-radius: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.mid div button{
+    
+    margin: 2em;
+    background-color: #FEC260;
+    padding: 1.3em;
+    border-radius: .7em;
+    border: none;
+    color: #FEC260;
+    text-decoration: none;
+}
+.mid div button:hover{
+    margin: 2em;
+    background-color: #f78821;
+    padding: 1.5em;
+    border: none;
+    color: #FEC260;
+    text-decoration: none;
+}
+.mid div button b a{
+    color: white;
+    text-decoration: none;   
+}
+.sp{
+    /* margin-bottom: 17em; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-image: url("jk.jpg");
+    background-image: cover;
+    color: whitesmoke;
+    gap: 2em;
+    height: 150vh;
+    text-align: center;
+}
+.sp>div{
+    color: black;
+    margin:4em;
+    padding: 1em;
+    padding-top: 2em;
+    border-radius: 2em;
+    box-shadow: wheat 3px 1px 18px 2px;
+    background-color: rgb(243, 240, 208);
+    height: 40%;
+}
+
+.sp>div:hover{
+    color: black;
+    margin:4em;
+    padding: 1em;
+    padding-top: 2em;
+    border-radius: 2em;
+    box-shadow: rgb(241, 235, 224) 3px 1px 18px 2px;
+    background-color: rgb(245, 204, 117);
+    height: 41%;
+    size: 52%;
+}
+
+.service{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    background-image: url("jk.jpg");
+    background-image: cover;
+    color: whitesmoke;
+    gap: .4em;
+    height: 100vh;
+    justify-content: center;
+
+}
+.service>div{
+    color: black;
+    margin:3em;
+    padding: 1em;
+    padding-top: 2em;
+    border-radius: 2em;
+    background-color: white;
+    justify-content: center;
+    margin:0 auto;
+    height: 60%;
+    width: 60%;
+    text-align: center;
+}
+.title-service{
+    font-size: 2em;
+    justify-content: center;
+    margin:0 auto;
+    align-content: center;
+    text-align: center;
+}
+.im{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.kl img{
+   width: 9em;
+   height: 9em;
+}
+
+.mt-4 {
+    margin-top: 1.5rem!important;
+    color: black;
+}
+.row{
+    background-color: black;
+    background-color: cover;
+    width: 100%;
+}
+#skl{
+    text-align: center;
+    /* align-content: center; */
+}
+
+.skill{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* background-image: url("jk.jpg");
+    background-image: cover; */
+    color: black;
+    font-size: 1em;
+    gap: 1.5em;
+    padding: 0 1em;
+    background-color: rgb(243, 240, 208);
+    height:80vh;
+}
+.skill>div{
+    color: black;
+    border:.2em black solid;
+    margin:2em;
+    text-align: center;
+    font-size: 1.2em;
+    height: 50%;
+    width: 70%;
+}
+.skill div i{
+  padding-bottom: 1.5em;
+   font-size: 2.3em;
+}
+         
+@media only screen and (min-width:800px) and (max-width:1150px)
+{
+    .header-nav {
+        width:60%;
+        font-size:.9em; 
+        align-content: center;
+                }
+                #info{
+                    align-content: center;
+                    text-align: center;
+                   font-size: .7em;
+                }
+                .add img{
+                    border-radius: 20em;
+                    width:60%;
+                    height: 60%;
+                    margin: 0 7em ;
+                }
+                .sp>div{
+                    color: black;
+                    margin:5em;
+                    padding: 1em;
+                    padding-top: 2em;
+                    border-radius: 2em;
+                    font-size: .7em;
+                    box-shadow: wheat 3px 1px 18px 2px;
+                    background-color: rgb(243, 240, 208);
+                    height: 40%;
+                }
+                .sp>div:hover{
+                    color: black;
+                    margin:4em;
+                    padding: 1em;
+                    padding-top: 2em;
+                    border-radius: 2em;
+                    box-shadow: rgb(241, 235, 224) 3px 1px 18px 2px;
+                    background-color: rgb(245, 204, 117);
+                    height: 41%;
+                    size: 52%;
+                }
+                .sp{
+                    /* margin-bottom: 17em; */
+                    display: grid;
+                    grid-template-columns: repeat(3,1fr);
+                    background-image: url("jk.jpg");
+                    background-image: cover;
+                    color: whitesmoke;
+                    gap: 2em;
+                    height: 130vh;
+                    text-align: center;
+                }
+                .service{
+                    display: grid;
+                    grid-template-rows: repeat(3,1fr);
+                    background-image: url("jk.jpg");
+                    background-image: cover;
+                    color: whitesmoke;
+                    gap: .3em;
+                    height: 100vh;
+                    justify-content: center;
+                
+                }
+                .service>div{
+                    color: black;
+                    margin:2em;
+                    padding: .8em;
+                    padding-top: .8em;
+                    border-radius: 2em;
+                    background-color: white;
+                    justify-content: center;
+                    margin:0 auto;
+                    height: 80%;
+                    width: 80%;
+                    text-align: center;
+                }
+                .title-service{
+                    font-size: 1.4em;
+                    padding-bottom: 1.5em;
+                    justify-content: center;
+                    margin:0 auto;
+                    align-content: center;
+                    text-align: center;
+                }
+                .skill{
+                    display: grid;
+                    grid-template-columns: repeat(3,1fr);
+                    color: black;
+                    font-size: 1em;
+                    gap: .8em;
+                    padding: 0 1em;
+                    background-color: rgb(243, 240, 208);
+                    height:80vh;
+                }
+                .skill>div{
+                    color: black;
+                    border:.2em black solid;
+                    margin:2em;
+                    text-align: center;
+                    font-size: 1.1em;
+                    height: 50%;
+                    width: 80%;
+                }
+
+}
+@media only screen and (min-width:700px) and (max-width:801px)
+{
+    .header-nav {
+        width:70%;
+        font-size:0.8em; 
+                }
+                #nn{
+                justify-items: right;
+                justify-content: space-between;
+
+                }
+                .add img{
+                    border-radius: 20em;
+                    width:50%;
+                    height: 50%;
+                    margin: 3em ;
+                }
+                #info{
+                    /* background-color: orange; */
+                    border-radius: 5em;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    justify-content: space-around;
+                    align-items: center;
+                    margin-right: .5em;
+                    }
+                    .sp>div{
+                        color: black;
+                        margin:2em;
+                        padding: .4em;
+                        padding-top: .5em;
+                        border-radius: 2em;
+                        font-size: .7em;
+                        box-shadow: wheat 3px 1px 18px 2px;
+                        background-color: rgb(243, 240, 208);
+                        text-align: center;
+                        width:15em;
+                        height: 80%;
+                    }
+                    .sp>div:hover{
+                        color: black;
+                        margin:2em;
+                        border-radius: 2em;
+                        box-shadow: rgb(241, 235, 224) 3px 1px 18px 2px;
+                        background-color: rgb(245, 204, 117);
+                        height: 80%;
+                    }
+                    .sp{
+                        /* margin-bottom: 17em; */
+                        display: grid;
+                        grid-template-columns: repeat(3,1fr);
+                        background-image: url("jk.jpg");
+                        background-image: cover;
+                        color: whitesmoke;
+                        gap: .2em;
+                        height: 100%;
+                        text-align: center;
+                        width: 100%;
+                    }
+                    .service{
+                        display: grid;
+                        grid-template-rows: repeat(3,1fr);
+                        background-image: url("jk.jpg");
+                        background-image: cover;
+                        color: whitesmoke;
+                        gap: .3em;
+                        height: 100vh;
+                        justify-content: center;
+                    
+                    }
+                    .service>div{
+                        color: black;
+                        margin:2em;
+                        font-size: 1em;
+                        padding: .8em;
+                        padding-top: .8em;
+                        border-radius: 2em;
+                        background-color: white;
+                        justify-content: center;
+                        margin:0 auto;
+                        height: 80%;
+                        width: 70%;
+                        text-align: center;
+                    }
+                    .title-service{
+                        font-size: 1.2em;
+                        justify-content: center;
+                        padding-bottom: 1.8em;
+                        margin:0 auto;
+                        align-content: center;
+                        text-align: center;
+                    }
+                    .skill{
+                        display: grid;
+                        grid-template-columns: repeat(3,1fr);
+                        color: black;
+                        font-size: 1em;
+                        gap: .8em;
+                        padding: 0 .9em;
+                        background-color: rgb(243, 240, 208);
+                        height:80vh;
+                    }
+                    .skill>div{
+                        color: black;
+                        border:.2em black solid;
+                        margin:1.6em;
+                        text-align: center;
+                        font-size: 1em;
+                        height: 50%;
+                        width: 90%;
+                    }
+                   
+}
+@media only screen and (max-width:700px)
+{
+    .header-nav ul{
+        display: none;
+    }
+    #nn{
+        display: flex;
+       justify-items: right;
+       align-content: flex-start;
+        justify-content: space-between;
+        margin-left: 0 auto;
+    }
+    #info{
+        /* background-color: orange; */
+        border-radius: 5em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: .3em;
+        }
+                .mid{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1.7em;
+                    padding: 1.8em;
+                    align-items: center;
+                    }
+                    .add img{
+                        border-radius: 20em;
+                        width:50%;
+                        height:50%;
+                        margin: 0 3em ;
+                    }
+                    .add{
+                       
+                        background-image: cover;
+                        border-radius: 5em;
+                        width: 75%;
+                    }
+                    .sp>div{
+                        color: black;
+                        padding: .4em;
+                        margin:3em 15em;
+                        padding-top: .5em;
+                        border-radius: 2em;
+                        font-size: .7em;
+                        box-shadow: wheat 3px 1px 18px 2px;
+                        background-color: rgb(243, 240, 208);
+                        align-content: center;
+                        height: 30%;
+                    }
+                    .sp>div:hover{
+                        color: black;
+                        margin:3em 15em;
+                        border-radius: 2em;
+                        box-shadow: rgb(241, 235, 224) 3px 1px 18px 2px;
+                        background-color: rgb(245, 204, 117);
+                        height: 30%;
+                    }
+                    .sp{
+                        /* margin-bottom: 17em; */
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        justify-content: space-between;
+                        background-image: url("jk.jpg");
+                        background-image: cover;
+                        color: whitesmoke;
+                        gap: .1em;
+                        height: 100%;
+                        align-content: center;
+                    }
+                    .service{
+                        display: grid;
+                        grid-template-rows: repeat(3,1fr);
+                        background-image: url("jk.jpg");
+                        background-image: cover;
+                        color: whitesmoke;
+                        gap: .3em;
+                        height: 100vh;
+                        justify-content: center;
+                    
+                    }
+                    .service>div{
+                        color: black;
+                        margin:2em;
+                        font-size: .8em;
+                        padding: .8em;
+                        padding-top: .8em;
+                        border-radius: 2em;
+                        background-color: white;
+                        justify-content: center;
+                        margin:0 auto;
+                        height: 60%;
+                        width: 70%;
+                        text-align: center;
+                    }
+                    .title-service{
+                        font-size: 1.3em;
+                        justify-content: center;
+                        padding-bottom: 1em;
+                        margin:0 auto;
+                        align-content: center;
+                        text-align: center;
+                    }
+                    .skill{
+                        display: grid;
+                        grid-template-columns: repeat(2,1fr);
+                        color: black;
+                        font-size: 1em;
+                        gap: .5em;
+                        padding: 0 .5em;
+                        background-color: rgb(243, 240, 208);
+                        height:80vh;
+                        justify-content: center;
+                    }
+                    .skill>div{
+                        color: black;
+                        border:.2em black solid;
+                        margin:1.5em;
+                        text-align: center;
+                        font-size: .8em;
+                        height: 70%;
+                        width: 90%;
+                    }
+
+}
